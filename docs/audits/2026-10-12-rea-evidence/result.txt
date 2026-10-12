@@ -1,0 +1,1 @@
+PASS: ordinary pass, fail, unknown, skipped component transitions. No schemas, CLI, MCP, provider or real artifact execution tested.
