@@ -1,0 +1,38 @@
+{
+  "boundary": "Original evaluator only with synthetic ordinary result records; schemas/full closure/CLI/MCP/provider not executed",
+  "cases": [
+    {
+      "older": "pass",
+      "newer": "unknown",
+      "reasons": [
+        "verifier-unknown"
+      ]
+    },
+    {
+      "older": "fail",
+      "newer": "pass",
+      "reasons": []
+    },
+    {
+      "older": "pass",
+      "newer": "fail",
+      "reasons": [
+        "verifier-failed"
+      ]
+    },
+    {
+      "observed_at": "2026-10-12T08:59:40Z",
+      "reasons": [
+        "verifier-result-stale"
+      ]
+    },
+    {
+      "observed_at": "2026-10-12T09:00:02Z",
+      "reasons": [
+        "verifier-result-stale"
+      ]
+    }
+  ],
+  "missing": "verifier-result-missing",
+  "freshPass": "no reasons"
+}
